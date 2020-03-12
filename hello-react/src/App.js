@@ -21,7 +21,7 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <MyComponent></MyComponent>
+    <MyComponent name="React"></MyComponent>
   );
 }
 
