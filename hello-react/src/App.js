@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MyComponent from './MyComponent'
+import EvenPractice from './EventPractice'
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <MyComponent name="React"></MyComponent>
+    //<MyComponent name="React"></MyComponent>
+    <EvenPractice/>
   );
 }
 
