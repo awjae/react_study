@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class EventPractice extends  Component {
 
     state = {
-        message: ''
+        message : '',
+        username : '',
     }
 
     constructor(props) {
@@ -14,7 +15,7 @@ class EventPractice extends  Component {
 
     handleChange(e) {
         this.setState({
-            message: e.target.value
+            [e.target.name] : e.target.value
         })
     }
 
@@ -29,6 +30,21 @@ class EventPractice extends  Component {
         return (
             <div>
                 <h1>이벤트 연습</h1>
+                <input 
+                  type="text"
+                  name="username"
+                  placeholder="유저명"
+                  value={this.state.username}
+                  onChange= {
+                    //   (e) => {
+                    //       console.log(e.target.value)
+                    //       this.setState({
+                    //           message : e.target.value
+                    //       })
+                    //   }
+                    this.handleChange
+                  }
+                ></input>
                 <input 
                   type="text"
                   name="message"
