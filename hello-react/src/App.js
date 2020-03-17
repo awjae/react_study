@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import MyComponent from './MyComponent'
 import EvenPractice from './EventPractice'
+import IterationSample from './IterationSample'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
     //   </header>
     // </div>
     //<MyComponent name="React"></MyComponent>
-    <EvenPractice/>
+    //<EvenPractice/>
+    <IterationSample></IterationSample>
   );
 }
 
