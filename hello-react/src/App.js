@@ -26,7 +26,6 @@ function App() {
     //<MyComponent name="React"></MyComponent>
     //<EvenPractice/>
     <IterationSample></IterationSample>
-    
   );
 }
 
