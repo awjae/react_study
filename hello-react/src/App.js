@@ -4,6 +4,7 @@ import './App.css';
 import MyComponent from './MyComponent'
 import EvenPractice from './EventPractice'
 import IterationSample from './IterationSample'
+import Hello from './functionalComponent'
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
     // </div>
     //<MyComponent name="React"></MyComponent>
     //<EvenPractice/>
-    <IterationSample></IterationSample>
+    //<IterationSample></IterationSample>
+    <Hello></Hello>
   );
 }
 
