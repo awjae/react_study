@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Route } from 'react-router-dom';
+import {
+  Home,
+  About
+} from 'pages';
 
-function App() {
+const App = () => {
   return (
     <div>
-      이랙트 라우터를 배워봅시다.
-
+      <Route exact path="/" component={Home}></Route>
+      <Route path="/about" component={About}></Route>
     </div>
   );
 }
